@@ -1,18 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto de Conclusão do Curso 'Git e GitHub do básico ao avançado' realizado por Felipe Akel">
+    <meta name="description"
+        content="Projeto de Conclusão do Curso 'Git e GitHub do básico ao avançado' realizado por Felipe Akel">
     <meta name="keywords" content="Felipe Akel, Projeto Final, HTML, CSS">
     <meta name="author" content="Felipe Akel Carvalho Florentino">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Dev Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- CSS do Projeto -->
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>Projeto de Conclusão do Curso 'Git e GitHub do básico ao avançado'</title>
+
+    <title>Projeto 'Git e GitHub'</title>
 </head>
+
 <body>
-    <h1>Olá mundo</h1>
+
+    <main id="content">
+        <aside id="bio-container">
+            <h2>Felipe Akel</h2>
+            <img src="img/felipe-akel.jpeg" alt="Felipe Akel">
+            <p> Olá, sou Felipe Akel e sou programador PHP </p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <div id="mail-container">
+                <ion-icon name="mail-outline"></ion-icon> <a
+                    href="mailto:felipe.akel01@gmail.com">felipe.akel01@gmail.com </a>
+            </div>
+        </aside>
+
+        <section id="about-container">
+            <h3>Felipe Akel</h3>
+            <h2>Programador PHP</h2>
+
+            <p class="descrition">
+                Primeiramente, sou um profissional com mais 5 anos de experiência na área de gestão de websites e
+                desenvolvimento de sistemas com o emprego de <span class="heighlight">Metodologias Ágeis</span>. Sou graduado no curso Sistema de
+                Informação e pós-graduado em Segurança da Informação os quais foram de grande conhecimento e
+                aprendizado. Possuo sólidos conhecimentos em desenvolvimento com destaque em front-end.
+            </p>
+            <p class="descrition">
+                <span class="heighlight">Meus objetivos</span> são me tornar um profissional de destaque e referência em desenvolvimento de sistemas,
+                propor soluções criativas e inteligentes e contribuir com o time na resolução de problemas.
+            </p>
+
+            <a href="#" id="btn-project"><ion-icon name="share-social-outline"></ion-icon> Ver Projetos</a>
+
+            
+            <h3>Minhas Skills</h3>
+            <p class="descrition">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-End</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-End</p>
+                    <i class="devicon-php-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-oracle-plain colored"></i>
+                    <i class="devicon-mongodb-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-End Frameworks</p>
+                    <i class="devicon-angula-plain colored"></i>
+                    <i class="devicon-react-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-End Frameworks</p>
+                    <i class="devicon-laravel-plain colored"></i>
+                    <i class="devicon-django-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Ferramentas</p>
+                    <i class="devicon-vscode-plain colored"></i>
+                    <i class="devicon-trello-plain colored"></i>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
