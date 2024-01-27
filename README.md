@@ -2,7 +2,7 @@
 
 ## Sobre Portfólio 'Git e GitHub'
 
-Ao concluir o curso de Git e GitHub é importante praticar os comandos aprendidos para fixar o conteúdo. Logo, aproveitei para praticar o HTML e CSS para criar um mini portfólio para pra ticar os comandos.
+Ao concluir o curso de Git e GitHub é importante praticar os comandos aprendidos para fixar o conteúdo. Logo, aproveitei para praticar o HTML e CSS para criar um mini portfólio para praticar os comandos Git.
 
 ## Tecnologias utilizadas
 
